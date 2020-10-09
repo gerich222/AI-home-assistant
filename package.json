@@ -9,7 +9,7 @@
   "author": "gerich",
   "license": "ISC",
   "dependencies": {
-    "@picovoice/porcupine-node": "^1.8.2",
+    "@google-cloud/speech": "^4.1.3",
     "express": "^4.17.1",
     "my-local-ip": "^1.0.0"
   }

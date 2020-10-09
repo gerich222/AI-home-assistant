@@ -1,5 +1,4 @@
 {
     "name": "undefiened",
-    "port": 80,
-    "ip": "localhost"
+    "port": 80
 }

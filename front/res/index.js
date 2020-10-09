@@ -1,5 +1,5 @@
-function reset(){
-    fetch('../settings.json')
-    .then(response => response.json())
-        .then(JSON.stringify("name", "undefiened"))
+const settings = require('../settings.json')
+
+function nigger(){
+    
 }

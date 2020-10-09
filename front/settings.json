@@ -1,0 +1,5 @@
+{
+    "name": "friend",
+    "port": 80,
+    "ip": "localhost"
+}

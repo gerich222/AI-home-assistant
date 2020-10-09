@@ -1,11 +1,8 @@
-const brain = require('brain.js')
-const net = new brain.recurrent.LSTM();
+const serv = require('./server.js')
+const settings = require('./front/settings.json')
 
-net.train([
-    {input: 'yes', output: 'no'},
-    {input: 'no', output: 'yes'}
-])
+if(settings.name === "undefiened"){
+    console.log("Change name for your home assiastant!")
+    serv
+}
 
-const output = net.run('yes')
-
-console.log(output)
